@@ -5,7 +5,7 @@ this.name = name;
   }
 
 startDate() {
-  
+
 }
 
 yearsExperienceFromBeginningOf() {
@@ -13,4 +13,11 @@ yearsExperienceFromBeginningOf() {
 }
 
 
+}
+
+
+class route {
+  constructor(beginningLocation, endingLocation)
+  this.beginningLocation = beginningLocation;
+  this.endingLocation = endingLocation;
 }
