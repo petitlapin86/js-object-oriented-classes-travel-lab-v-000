@@ -28,9 +28,9 @@ blocksTravelled(){
 } // closes blocksTravelled
 estimatedTime(peak){
   if(peak){
-    return this.blocksTravelled()/2
+    return this.blocksTravelled()/2 // estimates time in minutes, with travel time of 2 blocks in a minute
   } else {
-    return this.blocksTravelled()/3}
+    return this.blocksTravelled()/3} // estimates time in minutes, with travel time of 3 blocks in a minute
 } // closes estimatedTime
 } //closes route
 
