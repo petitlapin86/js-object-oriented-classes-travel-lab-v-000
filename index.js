@@ -26,6 +26,10 @@ blocksTravelled(){
      let verticalDistance = this.endingLocation.vertical - this.beginningLocation.vertical
      return (Math.abs(horizontalDistance) + Math.abs(verticalDistance))
 }
+estimatedTime(){
+  
+}
+
 }
 
 let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
