@@ -1,5 +1,5 @@
 
-class Driver {
+class Driver { //opens driver
   constructor(name, startDate) {
 this.name = name;
 this.startDate = new Date (startDate)
@@ -10,10 +10,10 @@ yearsExperienceFromBeginningOf() {
     let totalYears = (endDate - this.startDate)/(365*24*60*60*1000)
     return parseInt(totalYears)
 }
-}
+} //closes driver
 
 
-class Route {
+class Route { //opens route
   constructor(beginningLocation, endingLocation){
     this.beginningLocation = beginningLocation
     this.endingLocation = endingLocation
@@ -30,10 +30,9 @@ estimatedTime(peak){
   if(peak){
     return this.blocksTravelled()/2
   } else {
-    return this.blocksTravelled()/3
+    return this.blocksTravelled()/3}
 }
 
-}
-}
+} //closes route
 
 let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
